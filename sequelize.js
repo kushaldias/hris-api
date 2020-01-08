@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize')
-const AuthorModel = require('./models/author')
-const BookModel = require('./models/book')
-const UserListModel= require('./models/userList')
-const PromoCodeModel=require('./models/promoCode')
+const AuthorModel = require('./t/models/author')
+const BookModel = require('./t/models/book')
+const UserListModel= require('./t/models/userList')
+const PromoCodeModel=require('./t/models/promoCode')
 const {DATABASE_NAME,USERNAME,PASSWORD,HOST,DIALECT} =require('./constants')
 const sequelize = new Sequelize(DATABASE_NAME, USERNAME, PASSWORD, {
   host: HOST,
