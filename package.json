@@ -19,10 +19,10 @@
   "author": "irshad vali",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "coupon-code": "^0.4.5",
     "csvtojson": "^2.0.8",
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "mysql2": "^1.6.5",
     "sequelize": "^5.1.0",
     "sequelize-cli": "^5.5.1"
